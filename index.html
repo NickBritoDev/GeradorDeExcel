@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.8/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="./ExcelGenerator.js" defer></script>
+    <link rel="shortcut icon" href="./Excel-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table id="minha-tabela">
+      <thead>
+        <tr>
+          <th>Nome do Criador</th>
+          <th>País de Origem</th>
+          <th>Tecnologia Criada</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ada Lovelace</td>
+          <td>Reino Unido</td>
+          <td>Primeiro algoritmo de computador</td>
+        </tr>
+        <tr>
+          <td>Tim Berners-Lee</td>
+          <td>Reino Unido</td>
+          <td>World Wide Web</td>
+        </tr>
+        <tr>
+          <td>Grace Hopper</td>
+          <td>Estados Unidos</td>
+          <td>Compilador de linguagem de programação</td>
+        </tr>
+        <tr>
+          <td>Linus Torvalds</td>
+          <td>Finlândia</td>
+          <td>Linux</td>
+        </tr>
+        <tr>
+          <td>Alan Turing</td>
+          <td>Reino Unido</td>
+          <td>Computação e criptoanálise</td>
+        </tr>
+        <tr>
+          <td>Dennis Ritchie</td>
+          <td>Estados Unidos</td>
+          <td>Linguagem de programação C</td>
+        </tr>
+        <tr>
+          <td>Bjarne Stroustrup</td>
+          <td>Dinamarca</td>
+          <td>Linguagem de programação C++</td>
+        </tr>
+        <tr>
+          <td>John Resig</td>
+          <td>Estados Unidos</td>
+          <td>jQuery</td>
+        </tr>
+        <tr>
+          <td>Brendan Eich</td>
+          <td>Estados Unidos</td>
+          <td>Linguagem de programação JavaScript</td>
+        </tr>
+        <tr>
+          <td>Jamie Zawinski</td>
+          <td>Estados Unidos</td>
+          <td>Netscape Navigator</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <button id="export-btn">Exportar para Excel</button>
+  </body>
+</html>
